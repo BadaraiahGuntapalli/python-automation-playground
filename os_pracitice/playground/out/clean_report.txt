@@ -1,0 +1,24 @@
+CLEAN REPORT
+--------------------------------------------------
+
+Root: g:\Other computers\My Laptop\Practice Programming\github_repos\python-automation\os_pracitice\playground\out
+Dry run: True
+Delete extensions: ['.bak', '.log', '.tmp']
+Older than days: None
+
+Deleted files: 4
+Freed Space : 242 bytes (242.0 B)
+Removed dirs: 3
+skipped   : 0
+
+DELETED FILES
+--------------------------------------------------
+g:\Other computers\My Laptop\Practice Programming\github_repos\python-automation\os_pracitice\playground\out\level1\main.bak (242.0 B)
+g:\Other computers\My Laptop\Practice Programming\github_repos\python-automation\os_pracitice\playground\out\level1\level01\hai.tmp (0.0 B)
+g:\Other computers\My Laptop\Practice Programming\github_repos\python-automation\os_pracitice\playground\out\level1\level01\hello.bak (0.0 B)
+g:\Other computers\My Laptop\Practice Programming\github_repos\python-automation\os_pracitice\playground\out\level1\level01\zero.bak (0.0 B)
+
+REMOVED DIRECTORIES--------------------------------------------------
+g:\Other computers\My Laptop\Practice Programming\github_repos\python-automation\os_pracitice\playground\out\logs
+g:\Other computers\My Laptop\Practice Programming\github_repos\python-automation\os_pracitice\playground\out\level1\matter
+g:\Other computers\My Laptop\Practice Programming\github_repos\python-automation\os_pracitice\playground\out\level1\doll

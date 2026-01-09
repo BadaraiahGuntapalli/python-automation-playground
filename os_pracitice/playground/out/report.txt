@@ -1,0 +1,16 @@
+SCAN REPORT
+========================================
+
+Scan root      : e:\Practice Programming\github_repos\python-automation\os_pracitice\playground\data
+File extension : ('.csv', '.txt')
+Total files    : 5
+Total size     : 3995 bytes
+Total size     : 3.90 KB
+
+Files:
+----------------------------------------
+e:\Practice Programming\github_repos\python-automation\os_pracitice\playground\data\numbers.csv (0.00 B)
+e:\Practice Programming\github_repos\python-automation\os_pracitice\playground\data\test1.txt (1.73 KB)
+e:\Practice Programming\github_repos\python-automation\os_pracitice\playground\data\level_01\disease_x.csv (0.00 B)
+e:\Practice Programming\github_repos\python-automation\os_pracitice\playground\data\level_01\level_12\file_data.txt (2.17 KB)
+e:\Practice Programming\github_repos\python-automation\os_pracitice\playground\data\level_01\level_12\house_rental.csv (0.00 B)

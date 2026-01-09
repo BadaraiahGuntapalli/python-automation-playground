@@ -1,0 +1,84 @@
+"""
+Goal:
+    Scan a directory tree and filter files by extension,
+    and write a structured report.
+"""
+
+
+import os
+
+def bytes_to_human(n: int) -> str:
+    units =  ["B", "KB", "MB", "GB", "TB"]
+    size = float(n)
+    
+    for u in units:
+        if size < 1024:
+            return f"{size:.2f} {u}"
+        size /= 1024
+        
+    return f"{size:.2f} PB"
+
+
+def main():
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    data_dir = os.path.abspath(os.path.join(script_dir, "..","playground", "data"))
+    
+    out_dir = os.path.abspath(os.path.join(script_dir, "..", "playground", "out"))
+    
+    report_path = os.path.join(out_dir, "report.txt")
+    
+    # defensive checks 
+    
+    if not os.path.exists(data_dir):
+        print("ERROR: data directory does not exist")
+        print(data_dir)
+        return
+        
+    os.makedirs(out_dir, exist_ok=True)
+    
+    TARGET_EXT = (".csv", ".txt")
+    
+    matched_files = []
+    total_bytes = 0
+    
+    for root, dirs, files in os.walk(data_dir):
+        for fname in files:
+            if not fname.lower().endswith(TARGET_EXT):
+                continue
+            
+            fpath = os.path.join(root, fname)
+            
+            try:
+                size = os.path.getsize(fpath)
+            except OSError as e:
+                print(f"WARNING: could not read size of {fpath} ")
+                continue
+                
+            matched_files.append((fpath, size))
+            total_bytes += size
+            
+            
+    with open(report_path, "w", encoding="utf-8") as f:
+        f.write("SCAN REPORT\n")
+        f.write("="*40 + "\n\n")
+        
+        f.write(f"Scan root      : {data_dir}\n")
+        f.write(f"File extension : {TARGET_EXT}\n")
+        f.write(f"Total files    : {len(matched_files)}\n")
+        f.write(f"Total size     : {total_bytes} bytes\n")
+        f.write(f"Total size     : {bytes_to_human(total_bytes)}\n\n")
+        
+        f.write("Files:\n")
+        f.write("-" * 40 + "\n")
+        
+        for path, size in matched_files:
+            f.write(f"{path} ({bytes_to_human(size)})\n")
+        
+        
+        
+        
+        
+        
+if __name__ == "__main__":
+    main()                

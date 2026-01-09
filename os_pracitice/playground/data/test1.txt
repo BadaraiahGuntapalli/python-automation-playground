@@ -1,0 +1,71 @@
+"""
+walk a directory tree and compute:
+    - total number of sub directories
+    - total number of files 
+    - total size in bytes
+
+"""
+
+import os 
+
+def bytes_to_human(n: int)-> str:
+    """human readable size of the directory
+
+    Args:
+        n (int): total size of the directory integer
+
+    Returns:
+        str: human redable form
+    """
+    units = ["B", "KB", "MB", "GB", "TB"]
+    size = float(n)
+    for u in units:
+        if size < 1024:
+            return f"{size:0.2f} {u}"
+        size /= 1024
+    return f"{size:0.2f} PB"
+
+
+
+def main():
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    root_dir = os.path.join(script_dir, "..", "playground", "data")
+    root_dir = os.path.abspath(root_dir)
+    
+    if not os.path.exists(root_dir):
+        print("root directory does not exist")
+        return
+    
+    dir_count = 0
+    file_count = 0 
+    total_bytes = 0
+    
+    for root, dirs, files in os.walk(root_dir):
+        dir_count += len(dirs)
+        
+        for fname in files:
+            file_count += 1
+            fpath = os.path.join(root, fname)
+            
+            # size can fail for broken links / persmission issues; be defensive
+            try:
+                total_bytes += os.path.getsize(fpath)
+            except OSError as e:
+                print(f"WARNING: could not size {fpath} ({e})")
+
+    print(f"file and its size)
+        
+    print("Scan summary")
+    print("-"*40)
+    print("Root:   ", root_dir)
+    print("Dirs: ", dir_count)
+    print("Files: ", file_count)
+    print("Total Size: ", total_bytes, "bytes")
+    print("Total Size: ", bytes_to_human(total_bytes))
+    
+    
+    
+    
+if __name__ == "__main__":
+        main()
