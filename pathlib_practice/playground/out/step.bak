@@ -1,0 +1,7 @@
+"""
+PATHLIB LEVEL 1.3 — Directory iteration & globbing
+
+Goal:
+    - Iterate directories using pathlib
+    - Use glob() and rglob()
+"""

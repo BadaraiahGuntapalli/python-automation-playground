@@ -1,0 +1,17 @@
+Directory scan report
+======================================================================
+Generated: 2026-01-16 18:59:20.703175
+Root      : E:\Practice Programming\github_repos\python-automation\pathlib_practice\playground\out
+
+Total files: 12
+Total size : 1455357 bytes (1.3879365921020508 MB)
+Counts by extension
+----------------------------------------------------------------------
+.txt       : 10 
+.log       : 1 
+.bak       : 1 
+
+Top 2 largest files 
+----------------------------------------------------------------------
+levelx01\levelx02\two.txt | 1.366098403930664 MB
+levelx01\one.txt | 17.0595703125 KB

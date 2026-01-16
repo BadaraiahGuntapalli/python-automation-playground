@@ -1,0 +1,49 @@
+"""
+— Directory iteration & globbing
+
+Goal:
+    - Iterate directories using pathlib
+    - Use glob() and rglob()
+"""
+
+from pathlib import Path
+
+def main():
+    script_dir = Path(__file__).resolve().parent
+    
+    out_dir = (script_dir / ".." / "playground" / "out").resolve()
+    
+    if not out_dir.exists():
+        print("Directory doesnot exist")
+        print(f"{out_dir}")
+        return
+    
+    print(f"OUT DIRECTORY: {out_dir}")
+    print("-" * 70)
+
+
+    # Non-recursive iteration
+    print("Files directly under out/:")
+    for p in out_dir.iterdir():
+        if p.is_file():
+            print(f"{p.name}")
+        
+    print("-" * 70)
+    
+    # Glob by pattern (non-recursive)
+    print("*.txt files under out/:")
+    for p in out_dir.glob(".txt"):
+        print(f"{p.name}")
+        
+    print("-" * 70)
+    
+    # Rglob by pattern (recursive)
+    print("All *.txt files under out/:")
+    for p in out_dir.rglob(".txt"):
+        print(f"{p.relative_to(out_dir)}")
+        
+    print("-" * 70)
+    
+    
+if __name__ == "__main__":
+    main()

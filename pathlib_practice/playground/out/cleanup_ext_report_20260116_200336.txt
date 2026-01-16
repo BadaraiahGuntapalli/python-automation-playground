@@ -1,0 +1,15 @@
+PATHLIB CLEANUP REPORT (by extension)
+======================================================================
+Root    : E:\Practice Programming\github_repos\python-automation\pathlib_practice\playground\out
+Dry run : True
+Exts    : ['.bak', '.log', '.tmp']
+Time    : 2026-01-16 20:03:36.582430
+----------------------------------------------------------------------
+[DRY] sam.log
+[DRY] step.bak
+[DRY] sam04\four.tmp
+[DRY] levelx01\levelx02\three.log
+----------------------------------------------------------------------
+Matched: 4
+Deleted: 0
+Skipped: 0

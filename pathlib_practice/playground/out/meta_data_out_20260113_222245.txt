@@ -1,0 +1,8 @@
+def bytes_to_human(n: int) -> str:
+    units = ["B", "KB", "MB", "GB", "TB"]
+    size = float(n)
+    for u in units:
+        if size < 1024.0:
+            return f"{size:.2f} {u}"
+        size /= 1024.0
+    return f"{size:.2f} PB"

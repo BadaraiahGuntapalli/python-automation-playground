@@ -1,0 +1,7 @@
+Directory deletion report 
+======================================================================
+E:\Practice Programming\github_repos\python-automation\pathlib_practice\playground\out\sam.log 
+E:\Practice Programming\github_repos\python-automation\pathlib_practice\playground\out\step.bak 
+E:\Practice Programming\github_repos\python-automation\pathlib_practice\playground\out\levelx01\five 
+E:\Practice Programming\github_repos\python-automation\pathlib_practice\playground\out\sam04\four.tmp 
+E:\Practice Programming\github_repos\python-automation\pathlib_practice\playground\out\levelx01\levelx02\three.log 
