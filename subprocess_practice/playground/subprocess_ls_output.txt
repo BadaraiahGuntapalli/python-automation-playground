@@ -1,0 +1,12 @@
+ Volume in drive E is Personal
+ Volume Serial Number is 7D09-C640
+
+ Directory of E:\Practice Programming\github_repos\python-automation\subprocess_practice\playground
+
+17-01-2026  21:46    <DIR>          .
+17-01-2026  21:45    <DIR>          ..
+17-01-2026  21:46                 0 output.log
+17-01-2026  21:47               301 password.txt
+17-01-2026  21:47                 0 subprocess_ls_output.txt
+               3 File(s)            301 bytes
+               2 Dir(s)  17,470,455,808 bytes free
