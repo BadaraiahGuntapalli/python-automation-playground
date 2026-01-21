@@ -1,0 +1,11 @@
+2026-01-21 20:30:01 | INFO | __main__ | 08_timing.py | main | Pipeline started
+2026-01-21 20:30:01 | INFO | __main__ | 08_timing.py | main | Log file: E:\Practice Programming\github_repos\python-automation\logging-practice\playground\out\logs\timing_2026-01-21_20-30-01.log
+2026-01-21 20:30:01 | INFO | __main__ | 08_timing.py | main | START: step_1_load_inputs
+2026-01-21 20:30:01 | INFO | __main__ | 08_timing.py | main | END  : step_1_load_inputs | 0.400 sec
+2026-01-21 20:30:01 | INFO | __main__ | 08_timing.py | main | START: random_file.run_this
+2026-01-21 20:30:01 | INFO | random_file | random_file.py | run_this | Inside run_this: start
+2026-01-21 20:30:04 | INFO | random_file | random_file.py | run_this | Inside run_this: end
+2026-01-21 20:30:04 | INFO | __main__ | 08_timing.py | main | END  : random_file.run_this | 3.100 sec
+2026-01-21 20:30:04 | INFO | __main__ | 08_timing.py | main | START: step_3_write_outputs
+2026-01-21 20:30:04 | INFO | __main__ | 08_timing.py | main | END  : step_3_write_outputs | 0.300 sec
+2026-01-21 20:30:04 | INFO | __main__ | 08_timing.py | main | Pipeline finished

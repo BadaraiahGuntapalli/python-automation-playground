@@ -1,0 +1,12 @@
+2026-01-21 16:46:34 | INFO | __main__ | Program started (Level 2.2)
+2026-01-21 16:46:34 | DEBUG | __main__ | DEBUG: details for debugging (goes to file, not console in normal mode)
+2026-01-21 16:46:34 | INFO | __main__ | INFO: normal progress
+2026-01-21 16:46:34 | WARNING | __main__ | WARNING: something odd but continuing
+2026-01-21 16:46:34 | ERROR | __main__ | ERROR: something failed
+2026-01-21 16:46:34 | ERROR | __main__ | Example crash: division by zero
+Traceback (most recent call last):
+  File "e:\Practice Programming\github_repos\python-automation\logging-practice\scripts\06_console_info_file_debug.py", line 79, in main
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+2026-01-21 16:46:34 | INFO | __main__ | Program finished

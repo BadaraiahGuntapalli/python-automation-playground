@@ -1,0 +1,31 @@
+2026-01-21 15:57:51 | INFO | __main__ | Program started
+2026-01-21 15:57:51 | INFO | __main__ | 10/2 = 5.0
+2026-01-21 15:57:51 | ERROR | __main__ | Crash in risky_divide(10, 0)
+Traceback (most recent call last):
+  File "e:\Practice Programming\github_repos\python-automation\logging-practice\scripts\04_exception.py", line 46, in main
+    y = risky_divide(10, )
+        ^^^^^^^^^^^^^^^^^^
+TypeError: risky_divide() missing 1 required positional argument: 'b'
+2026-01-21 15:57:51 | INFO | __main__ | Program finished
+2026-01-21 16:25:01 | INFO | __main__ | Program started (Level 2.1)
+2026-01-21 16:25:01 | INFO | __main__ | 10/2 = 5.0
+2026-01-21 16:25:01 | ERROR | __main__ | Crash in risky_divide(10, 0)
+Traceback (most recent call last):
+  File "e:\Practice Programming\github_repos\python-automation\logging-practice\scripts\05_console_and_file.py", line 64, in main
+    risky_divide(10, 0)
+  File "e:\Practice Programming\github_repos\python-automation\logging-practice\scripts\05_console_and_file.py", line 45, in risky_divide
+    return a / b
+           ~~^~~
+ZeroDivisionError: division by zero
+2026-01-21 16:25:01 | INFO | __main__ | Program finished
+2026-01-21 16:25:47 | INFO | __main__ | Program started (Level 2.1)
+2026-01-21 16:25:47 | INFO | __main__ | 10/2 = 5.0
+2026-01-21 16:25:47 | ERROR | __main__ | Crash in risky_divide(10, 0)
+Traceback (most recent call last):
+  File "e:\Practice Programming\github_repos\python-automation\logging-practice\scripts\05_console_and_file.py", line 64, in main
+    risky_divide(10, 0)
+  File "e:\Practice Programming\github_repos\python-automation\logging-practice\scripts\05_console_and_file.py", line 45, in risky_divide
+    return a / b
+           ~~^~~
+ZeroDivisionError: division by zero
+2026-01-21 16:25:47 | INFO | __main__ | Program finished

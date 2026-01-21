@@ -1,0 +1,22 @@
+2026-01-21 16:28:24 | INFO | __main__ | Program started (Level 2.1)
+2026-01-21 16:28:24 | INFO | __main__ | 10/2 = 5.0
+2026-01-21 16:28:24 | ERROR | __main__ | Crash in risky_divide(10, 0)
+Traceback (most recent call last):
+  File "e:\Practice Programming\github_repos\python-automation\logging-practice\scripts\05_console_and_file.py", line 64, in main
+    risky_divide(10, 0)
+  File "e:\Practice Programming\github_repos\python-automation\logging-practice\scripts\05_console_and_file.py", line 45, in risky_divide
+    return a / b
+           ~~^~~
+ZeroDivisionError: division by zero
+2026-01-21 16:28:24 | INFO | __main__ | Program finished
+2026-01-21 16:28:54 | INFO | __main__ | Program started (Level 2.1)
+2026-01-21 16:28:54 | INFO | __main__ | 10/2 = 5.0
+2026-01-21 16:28:54 | ERROR | __main__ | Crash in risky_divide(10, 0)
+Traceback (most recent call last):
+  File "e:\Practice Programming\github_repos\python-automation\logging-practice\scripts\05_console_and_file.py", line 64, in main
+    risky_divide(10, 0)
+  File "e:\Practice Programming\github_repos\python-automation\logging-practice\scripts\05_console_and_file.py", line 45, in risky_divide
+    return a / b
+           ~~^~~
+ZeroDivisionError: division by zero
+2026-01-21 16:28:54 | INFO | __main__ | Program finished

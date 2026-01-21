@@ -1,0 +1,10 @@
+2026-01-21 15:45:17 | DEBUG | __main__ | DEBUG: goes to app.log
+2026-01-21 15:45:17 | INFO | __main__ | INFO: program started
+2026-01-21 15:45:17 | WARNING | __main__ | WARNING: sample warning
+2026-01-21 15:45:17 | ERROR | __main__ | ERROR: sample error
+2026-01-21 15:45:17 | CRITICAL | __main__ | CRITICAL: sample critical
+2026-01-21 20:17:32 | DEBUG | __main__ | DEBUG: goes to app.log
+2026-01-21 20:17:32 | INFO | __main__ | INFO: program started
+2026-01-21 20:17:32 | WARNING | __main__ | WARNING: sample warning
+2026-01-21 20:17:32 | ERROR | __main__ | ERROR: sample error
+2026-01-21 20:17:32 | CRITICAL | __main__ | CRITICAL: sample critical
