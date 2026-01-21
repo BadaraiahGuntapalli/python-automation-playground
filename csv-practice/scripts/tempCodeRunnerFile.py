@@ -1,0 +1,1 @@
+f"SKIP row {i}: {row} -> {e}")
