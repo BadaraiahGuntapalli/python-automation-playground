@@ -5,6 +5,6 @@ __pycache__/
 *.pyc
 
 # Logs / outputs
-**/Playground/out/
-**/playground/out/
-*.log
+# **/Playground/out/
+# **/playground/out/
+# *.log
