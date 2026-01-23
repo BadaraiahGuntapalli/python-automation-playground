@@ -5,3 +5,15 @@ id,name,score
 4,Dan,95
 5,Eva,82
 5,Eva,not_a_number
+8,Jevan,--
+9,Kate,$$
+10,Liam,89.5
+11,Mia,100%
+12,Noah,67.25
+13,Olivia,N/A
+14,Paul,74.0
+15,Quinn,85
+16,Rachel,92.3
+17,Sam,81
+18,Tina,invalid
+19,Uma,88.8

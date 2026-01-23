@@ -1,0 +1,13 @@
+id,name,score,passed,grade
+4,Dan,95.0,yes,A
+16,Rachel,92.3,yes,A
+1,Alice,91.0,yes,A
+10,Liam,89.5,yes,B
+19,Uma,88.8,yes,B
+3,Chitra,88.0,yes,B
+15,Quinn,85.0,yes,B
+5,Eva,82.0,yes,B
+17,Sam,81.0,yes,B
+2,Bob,78.0,no,C
+14,Paul,74.0,no,C
+12,Noah,67.25,no,D
