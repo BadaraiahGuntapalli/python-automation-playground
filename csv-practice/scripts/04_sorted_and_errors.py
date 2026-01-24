@@ -71,7 +71,7 @@ def main():
             except Exception as e:
                 err_row = {k: (v.strip() if isinstance(v, str) else v) for k, v in row.items()}
                 err_row["line_row"] = line_no
-                err_row["error"] = e
+                err_row["error"] = str(e)
                 errors.append(err_row)
                 
     # higest first (descending order)            
