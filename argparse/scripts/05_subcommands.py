@@ -1,5 +1,5 @@
 """
-ARGPARSE LEVEL 2.1 — Subcommands (scan/clean/report)
+Subcommands (scan/clean/report)
 
 Goal:
     Build git-style CLI:
@@ -147,7 +147,7 @@ def cmd_clean(args) -> int:
 def main() -> None:
     parser = argparse.ArgumentParser(
         prog="tool",
-        description="Argparse Level 2.1: subcommands (scan/report/clean).",
+        description="subcommands (scan/report/clean).",
     )
     sub = parser.add_subparsers(dest="command", required=True)
 
