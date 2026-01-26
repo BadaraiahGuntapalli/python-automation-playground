@@ -1,0 +1,8 @@
+id,name,score,passed,grade,line_no,error
+id,name,score,,,2,invalid literal for int() with base 10: 'id'
+5,Eva,not_a_number,,,8,could not convert string to float: 'not_a_number'
+8,Jevan,--,,,9,could not convert string to float: '--'
+9,Kate,$$,,,10,could not convert string to float: '$$'
+11,Mia,100%,,,12,could not convert string to float: '100%'
+13,Olivia,N/A,,,14,could not convert string to float: 'N/A'
+18,Tina,invalid,,,19,could not convert string to float: 'invalid'

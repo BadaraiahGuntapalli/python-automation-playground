@@ -1,7 +1,0 @@
-id,name,score,line_no,error
-5,Eva,not_a_number,7,could not convert string to float: 'not_a_number'
-8,Jevan,--,8,could not convert string to float: '--'
-9,Kate,$$,9,could not convert string to float: '$$'
-11,Mia,100%,11,could not convert string to float: '100%'
-13,Olivia,N/A,13,could not convert string to float: 'N/A'
-18,Tina,invalid,18,could not convert string to float: 'invalid'
