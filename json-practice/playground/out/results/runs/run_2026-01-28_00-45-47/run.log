@@ -1,0 +1,9 @@
+2026-01-28 00:45:47 | INFO | __main__ | 07_run_scaffold.py:232 | main | Lock acquired: E:\Practice Programming\github_repos\python-automation\json-practice\playground\out\results\.lock
+2026-01-28 00:45:47 | INFO | __main__ | 07_run_scaffold.py:248 | main | Run started
+2026-01-28 00:45:47 | INFO | __main__ | 07_run_scaffold.py:249 | main | Input CSV : E:\Practice Programming\github_repos\python-automation\json-practice\playground\out\sample.csv
+2026-01-28 00:45:47 | INFO | __main__ | 07_run_scaffold.py:250 | main | Out dir   : E:\Practice Programming\github_repos\python-automation\json-practice\playground\out\results
+2026-01-28 00:45:47 | INFO | __main__ | 07_run_scaffold.py:251 | main | Run dir   : E:\Practice Programming\github_repos\python-automation\json-practice\playground\out\results\runs\run_2026-01-28_00-45-47
+2026-01-28 00:45:47 | INFO | __main__ | 07_run_scaffold.py:252 | main | Saved     : E:\Practice Programming\github_repos\python-automation\json-practice\playground\out\results\runs\run_2026-01-28_00-45-47\final_config.json
+2026-01-28 00:45:47 | INFO | __main__ | 07_run_scaffold.py:256 | main | TODO: pipeline started ... 
+2026-01-28 00:45:57 | INFO | __main__ | 07_run_scaffold.py:258 | main | pipeline ended ... 
+2026-01-28 00:45:57 | INFO | __main__ | 07_run_scaffold.py:261 | main | Run finished successfully

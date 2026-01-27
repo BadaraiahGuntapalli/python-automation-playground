@@ -1,0 +1,28 @@
+{
+  "paths": {
+    "input_csv": "E:\\Practice Programming\\github_repos\\python-automation\\json-practice\\playground\\out\\sample.csv",
+    "out_dir": "E:\\Practice Programming\\github_repos\\python-automation\\json-practice\\playground\\out\\results",
+    "run_dir": "E:\\Practice Programming\\github_repos\\python-automation\\json-practice\\playground\\out\\results\\runs\\run_2026-01-28_00-45-47"
+  },
+  "options": {
+    "min_score": 80,
+    "verbose": true
+  },
+  "sources": {
+    "config_path": "E:\\Practice Programming\\github_repos\\python-automation\\json-practice\\playground\\out\\config.json",
+    "env_seen": {
+      "INPUT_CSV": false,
+      "OUT_DIR": false,
+      "MIN_SCORE": false,
+      "VERBOSE": false
+    },
+    "cli_seen": {
+      "input_csv": false,
+      "out_dir": false,
+      "min_score": false,
+      "verbose": false,
+      "run_id": false
+    }
+  },
+  "started_at": "2026-01-28 00:45:47"
+}
